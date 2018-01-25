@@ -1,0 +1,18 @@
+#CONFIGURATION PROPERTIES UPDATED#
+#JAN 21 2018 MODIFIED DUST
+#JAN 25 2018 CLEANED UP DEFINITIONS
+
+#SELL OPTIONS#
+sell_fillOrKill = false
+sell_immediateOrCancel = true
+
+#BUY OPTIONS#
+buy_fillOrKill = false
+buy_immediateOrCancel = true
+
+hideDust=true
+
+#YOUR SAFETY WHEN TESTING NEW SETTINGS IF THIS IS TRUE THEN YOUR BOT IS LIVE WHEN YOU TURN IT ON#
+testMode=false
+
+BTC_dust = 0.002001
