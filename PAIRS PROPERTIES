@@ -1,0 +1,53 @@
+#MONIMS PAIR PROPERTIES#
+
+
+#MASTER CONROL SETTINGS#
+#MARKET CAN BE BTC,USDT,ETH...etc#
+MARKET = BTC
+
+ALL_trading_enabled = true
+ALL_enabled_pairs= ALL
+BNBBTC_trading_enabled = false
+IOSTBTC_trading_enabled = true
+CDTBTC_trading_enabled = true
+
+ALL_sell_only_mode = false
+
+#GENERAL#
+
+ALL_max_cost = 0
+ALL_max_cost_percentage = 1
+ALL_min_buy_balance = 0
+ALL_min_buy_balance_percentage = 70
+
+ALL_min_buy_volume = 300
+ALL_min_buy_price = 0.00005
+ALL_max_buy_spread = 1
+ALL_max_trading_pairs = 5
+ALL_buy_available_volume_trigger = 150
+
+
+#BUY STRATEGY REFER TO THE PROFIT TRAILER WIKI SECTION PAIRS#
+#EMASPREAD,EMAGAIN,SMASPREAD,SMAGAIN,LOWBB,HIGHBB TO LIST A FEW#
+ALL_buy_strategy = EMASPREAD
+ALL_buy_value = -0.317
+ALL_trailing_buy = 0.277
+
+
+#SELL STRATEGY ALSO REFER TO THE PT WIKI#
+# SELL VALUE MEANS AT 1 PERCENT PROFIT AND THE TRAILING VALUE SHOULD BE LOW TO HELP EXCUTION#
+ALL_sell_strategy = GAIN
+ALL_sell_value = 1
+ALL_min_profit = 1
+ALL_trailing_profit = 0.277
+
+#WILL SAVE YOUR TURKEY DOLLAR COST AVERAGING ALSO IN THE WIKI FOR A BETTER UNDERSTANDING#
+ALL_DCA_enabled = true
+
+#YARR ABANDON SHIP MATIES THESE ARE SETTINGS FO SELLOFFS#
+All_stop_loss_trigger = 0
+ALL_stop_loss_timeout = 5
+ALL_panic_sell_enabled = false
+
+
+ALL_pending_order_wait_time = 0
