@@ -1,0 +1,41 @@
+#MONIM ANDERSON DOUBLE DCA#
+#https://wiki.profittrailer.io/doku.php/buy_and_sell_strategies#
+
+enabled = true
+max_cost = 0
+max_buy_times = 6
+
+#==============================#
+#BUY SETTINGS FOR MORE SETTINGS REFER TO THE WIKI #
+
+# TO DOLLAR COST AVERAGE IS TO SAY I WILL TAKE 1000$ AND REINVEST IT EVERY 7 DAYS NO MATTER WAHT THE MARKET CONDITION THIS MEANS THAT I WILL HAVE BOUGHT LESS SHARES AT HIGH PRICES AND MORE SHARES AT LOW PRICES
+#THE SAME APPLY'S HERE BUT INSTEAD WE ARE DOUBLING UP ON OUR POSITIONS SO EVEN A SMALL UPTURN AFTER DOUBLING DOWN IS MAGNIFIED#
+#HOW DOES DCA WORK YOU ASK?:  https://wiki.profittrailer.io/doku.php/anderson_dca  #
+buy_strategy = ANDERSON
+buy_style = DOUBLEDOWN
+buy_trigger_1 = -1.5
+buy_trigger_2 = -3.5
+buy_trigger_3 = -7.5
+buy_trigger_4 = -9.5
+buy_trigger_5 = -12.5
+buy_trigger_6 = -17.5
+
+#The very essence of this bot is its ability--#
+#--to trail the prices as they chart down or up the value determines what range to trail at.#
+
+trailing_buy = 0.0777
+
+pending_order_wait_time = 0
+ignore_sell_only_mode = true
+
+#SELL STRATEGY#
+sell_strategy = GAIN
+sell_value = .86
+trailing_profit = 0.25
+
+#SAFTEY SETTINGS#
+# MAX SPEAD ILL DETERMINE THE WIDTH OF THE ORDERS THE BOT WILL TRADE AT#
+# LARGE SPREADS INDICATE ONGOING PUMPING AND DUMPING#
+max_buy_spread = 2
+
+stop_loss_trigger = 0
