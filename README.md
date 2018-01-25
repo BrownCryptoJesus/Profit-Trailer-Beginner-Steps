@@ -3,7 +3,8 @@
  look no further for these easy copy and paste settings!!!!!
  
  For further help I have also explained the buy and sell strategy's 
- as well as DCA there are also many links to the things you will 
+ as well as DCA strats.
+ There are also many links to the things you will 
  have questions about annotated into the code so please paroose. 
 
 #Check out the wiki#
