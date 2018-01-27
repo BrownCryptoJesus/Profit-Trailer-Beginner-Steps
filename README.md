@@ -1,5 +1,5 @@
 # Profit-Trailer-Beginner-Steps#
- Are you confused about profit trailer? dont know how to get the dam thing started? 
+ Are you confused about profit trailer? dont know how to get the damn thing started? 
  look no further for these easy copy and paste settings!!!!!
  
  For further help I have also explained the buy and sell strategy's 
@@ -14,6 +14,7 @@ https://wiki.profittrailer.io/
 https://wiki.profittrailer.io/doku.php/instructions
 
 #How to setup a VPS#
+
 
 #The first crucial step is to always have the profit trailer wiki open on a tab#
 
